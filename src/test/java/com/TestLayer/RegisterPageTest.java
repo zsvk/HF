@@ -30,6 +30,10 @@ public class RegisterPageTest  extends BaseClass
 	}
 	
 	@Test(priority=4)
+	public void gitProgram2() {
+		System.out.println("Git is updated successfully second");
+	}
+	@Test(priority=5)
 	public void gitProgram() {
 		System.out.println("Git is updated successfully");
 	}
