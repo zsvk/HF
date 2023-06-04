@@ -29,6 +29,11 @@ public class RegisterPageTest  extends BaseClass
 		registerPage.userInformation("shrikant@gmail.com","shri@123","shri@123");
 	}
 	
+	@Test(priority=4)
+	public void gitProgram() {
+		System.out.println("Git is updated successfully");
+	}
+	
 	@AfterClass
 	public void tearDown() {
 		driver.quit();

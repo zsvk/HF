@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-04T12:54:48 IST" name="Default suite" finished-at="2023-06-04T12:55:13 IST" duration-ms="24537">
+  <suite started-at="2023-06-04T13:23:16 IST" name="Default suite" finished-at="2023-06-04T13:23:34 IST" duration-ms="17533">
     <groups>
     </groups>
-    <test started-at="2023-06-04T12:54:48 IST" name="Default test" finished-at="2023-06-04T12:55:13 IST" duration-ms="24537">
+    <test started-at="2023-06-04T13:23:16 IST" name="Default test" finished-at="2023-06-04T13:23:34 IST" duration-ms="17533">
       <class name="com.TestLayer.RegisterPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestLayer.RegisterPageTest@73e9cf30]" started-at="2023-06-04T12:54:48 IST" name="setUp" finished-at="2023-06-04T12:55:04 IST" duration-ms="15710" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestLayer.RegisterPageTest@771a660]" started-at="2023-06-04T13:23:16 IST" name="setUp" finished-at="2023-06-04T13:23:26 IST" duration-ms="9749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateContactInformation()[pri:1, instance:com.TestLayer.RegisterPageTest@73e9cf30]" started-at="2023-06-04T12:55:04 IST" name="validateContactInformation" finished-at="2023-06-04T12:55:05 IST" duration-ms="1166" status="PASS">
+        <test-method signature="validateContactInformation()[pri:1, instance:com.TestLayer.RegisterPageTest@771a660]" started-at="2023-06-04T13:23:26 IST" name="validateContactInformation" finished-at="2023-06-04T13:23:27 IST" duration-ms="1120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContactInformation -->
-        <test-method signature="validateMailingInformation()[pri:2, instance:com.TestLayer.RegisterPageTest@73e9cf30]" started-at="2023-06-04T12:55:05 IST" name="validateMailingInformation" finished-at="2023-06-04T12:55:06 IST" duration-ms="763" status="PASS">
+        <test-method signature="validateMailingInformation()[pri:2, instance:com.TestLayer.RegisterPageTest@771a660]" started-at="2023-06-04T13:23:27 IST" name="validateMailingInformation" finished-at="2023-06-04T13:23:28 IST" duration-ms="887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMailingInformation -->
-        <test-method signature="validateUserInformation()[pri:3, instance:com.TestLayer.RegisterPageTest@73e9cf30]" started-at="2023-06-04T12:55:06 IST" name="validateUserInformation" finished-at="2023-06-04T12:55:11 IST" duration-ms="4442" status="PASS">
+        <test-method signature="validateUserInformation()[pri:3, instance:com.TestLayer.RegisterPageTest@771a660]" started-at="2023-06-04T13:23:28 IST" name="validateUserInformation" finished-at="2023-06-04T13:23:31 IST" duration-ms="3546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserInformation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestLayer.RegisterPageTest@73e9cf30]" started-at="2023-06-04T12:55:11 IST" name="tearDown" finished-at="2023-06-04T12:55:13 IST" duration-ms="2383" status="PASS">
+        <test-method signature="gitProgram()[pri:4, instance:com.TestLayer.RegisterPageTest@771a660]" started-at="2023-06-04T13:23:31 IST" name="gitProgram" finished-at="2023-06-04T13:23:31 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gitProgram -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestLayer.RegisterPageTest@771a660]" started-at="2023-06-04T13:23:31 IST" name="tearDown" finished-at="2023-06-04T13:23:34 IST" duration-ms="2096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
